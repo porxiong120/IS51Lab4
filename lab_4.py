@@ -31,7 +31,6 @@ ask function
 main
 """
  
- 
 def main():
     question = "What is the capital of California? "
     answer = "Sacramento"
