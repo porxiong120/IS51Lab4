@@ -31,6 +31,7 @@ ask function
 main
 """
  
+ 
 def main():
     question = "What is the capital of California? "
     answer = "Sacramento"
@@ -45,3 +46,7 @@ def ask(question, answer, max_tries=3):
         if ans == answer:
             print("Correct!")
             break
+    if ans != answer:
+        print("You have used up your allotment of guesses.")
+ 
+main()
